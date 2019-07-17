@@ -58,26 +58,32 @@ Examples:
 
 ```
 // Facebook share
-shareLink('fb', 'https://github.com') => 'https://www.facebook.com/sharer/sharer.php?u=https://github.com'
+shareLink('fb', 'https://github.com');
+'https://www.facebook.com/sharer/sharer.php?u=https://github.com'
 
 // Twitter share no text
-shareLink('tw', 'https://github.com') => 'https://twitter.com/intent/tweet?url=https://github.com'
+shareLink('tw', 'https://github.com');
+'https://twitter.com/intent/tweet?url=https://github.com'
 
 // Twitter share with text
-shareLink('tw', 'https://github.com', 'Check out this awesome site!') => 'https://twitter.com/intent/tweet?url=https://github.com&text=Check out this awesome site!'
+shareLink('tw', 'https://github.com', 'Check out this awesome site!');
+'https://twitter.com/intent/tweet?url=https://github.com&text=Check out this awesome site!'
 
 // LinkedIn share
-shareLink('li', 'https://github.com') => 'https://www.linkedin.com/shareArticle?mini=true&url=https://github.com'
+shareLink('li', 'https://github.com')
+'https://www.linkedin.com/shareArticle?mini=true&url=https://github.com'
 
 // email share no subject or body
-shareLink('em', 'https://github.com') => 'mailto:&body=https://github.com'
+shareLink('em', 'https://github.com')
+'mailto:&body=https://github.com'
 
 // email share with subject
-shareLink('em', 'https://github.com', 'Check out this website') => 'mailto:?subject=Check out this website&body=https://github.com'
+shareLink('em', 'https://github.com', 'Check out this website')
+'mailto:?subject=Check out this website&body=https://github.com'
 
 // email share with subject and body
-shareLink('em', 'https://github.com', 'Check out this website', 'no really check it out heres the link') =>
-  'mailto:?subject=Check out this website&body=no really check it out heres the link https://github.com'
+shareLink('em', 'https://github.com', 'Check out this website', 'no really check it out heres the link')
+'mailto:?subject=Check out this website&body=no really check it out heres the link https://github.com'
 ```
 
 ## Support 💬
