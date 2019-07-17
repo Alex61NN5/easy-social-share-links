@@ -2,7 +2,6 @@
 
 ![npm version](https://img.shields.io/npm/v/easy-social-share-links.svg)
 ![bundlephobia](https://img.shields.io/bundlephobia/min/easy-social-share-links.svg)
-![npm downloads](https://badgen.net/npm/dt/easy-social-share-links)
 ![twitter](https://img.shields.io/twitter/follow/alexginns.svg?style=social)
 
 > Easily generate share links for Facebook, Twitter, LinkedIn and Email!
