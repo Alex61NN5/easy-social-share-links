@@ -6,6 +6,10 @@
 
 > Easily generate share links for Facebook, Twitter, LinkedIn and Email!
 
+## Demo 🏄‍♂️
+
+https://easysocialsharelinks.netlify.com/
+
 ## Features 🔥
 
 - Less than 2kb! (under 1kb minified)
