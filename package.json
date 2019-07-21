@@ -1,6 +1,6 @@
 {
 	"name": "easy-social-share-links",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"description": "Easily generate share links for Facebook, Twitter, LinkedIn",
 	"main": "index.js",
 	"scripts": {
