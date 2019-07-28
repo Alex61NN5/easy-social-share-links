@@ -5,7 +5,7 @@ function shareLink(provider, link, text = null, emailBody = null) {
 		case 'tw':
 			return 'https://twitter.com/intent/tweet?url=' + link + (text ? '&text=' + text : '');
 		case 'li':
-			return 'https://www.linkedin.com/shareArticle?mini=true&url=' + link;
+			return 'https://www.linkedin.com/shareArticle?mini=true&url=' + link + (text ? '&summary=' + text : '');
 		case 'em':
 			// text is the subject and emailBody is the text bfore the link
 			return 'mailto:' + (text ? '?subject=' + text : '') + '&body=' + (emailBody ? emailBody : '') + ' ' + link;

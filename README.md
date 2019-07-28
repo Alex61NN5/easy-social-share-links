@@ -51,7 +51,7 @@ em = email
 
 Second argument is the link you wish to share eg. `'https://github.com/Alex61NN5/easy-social-share-links'`
 
-Third Argument is optional and will only work when using `'tw'` and `'em'` which is `text` this is some text you can write before your tweet with the share link when using `'em'` text becomes the subject of the email.
+Third argument is optional and will work will all providers except for `fb` as of writing this facebook does not have a standard way to add text to a share link (if this ever changes please submit a pull request). The third argument is some text that will go before the link in either a tweet or linkedIn share, for `em` it will become the subject of the email.
 
 Fourth Argument is optional and will only work when using `'em'` which is `emailBody`, this is some text you can write before the link is shared in the email.
 
