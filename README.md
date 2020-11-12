@@ -6,6 +6,16 @@
 
 > Easily generate share links for Facebook, Twitter, LinkedIn and Email!
 
+## Important Breaking Changes
+
+Version 2.0.0 has brought lots of improvements however, how the library is used has changed
+
+For Version 2.0.0 > Docs
+
+For Version 1.0.0 Docs
+
+## Version 2.0.0 > Docs
+
 ## Demo 🏄‍♂️
 
 https://easysocialsharelinks.netlify.com/
@@ -13,7 +23,35 @@ https://easysocialsharelinks.netlify.com/
 ## Features 🔥
 
 - Less than 2kb! (under 1kb minified)
-- Zero Dependencies
+- Zero Dependencies!
+- Built with Typescript!
+- Fully Tested!
+- Easy to use! 💪
+
+## Install 🔮
+
+```
+$ npm install easy-social-share-links
+```
+
+or
+
+```
+$ yarn add easy-social-share-links
+```
+
+## Version 1.0.0 Docs
+
+## Demo 🏄‍♂️
+
+https://easysocialsharelinks.netlify.com/
+
+Please Note: The demo uses Version 2.0.0 >
+
+## Features 🔥
+
+- Less than 2kb! (under 1kb minified)
+- Zero Dependencies!
 - Easy to use! 💪
 
 ## Install 🔮
