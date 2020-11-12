@@ -54,5 +54,8 @@
       "@babel/preset-env",
       "@babel/preset-typescript"
     ]
+  },
+  "dependencies": {
+    "@types/jest": "^26.0.15"
   }
 }

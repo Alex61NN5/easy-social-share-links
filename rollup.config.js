@@ -7,7 +7,7 @@ import pkg from "./package.json";
 
 export default [
   {
-    input: "src/index.ts",
+    input: "src/easy-social-share-links.ts",
     output: {
       name: "SocialShareLinks",
       file: pkg.main,
@@ -25,7 +25,7 @@ export default [
     ],
   },
   {
-    input: "src/index.ts",
+    input: "src/easy-social-share-links.ts",
     output: {
       name: "SocialShareLinks",
       file: "dist/easy-social-share-links.js",
@@ -42,7 +42,7 @@ export default [
     ],
   },
   {
-    input: "src/index.ts",
+    input: "src/easy-social-share-links.ts",
     output: {
       file: pkg.module,
       format: "es",
