@@ -47,6 +47,7 @@ fb = facebook
 tw = twitter
 li = linkedIn
 em = email
+wa = whatsapp
 ```
 
 Second argument is the link you wish to share eg. `'https://github.com/Alex61NN5/easy-social-share-links'`
@@ -87,6 +88,9 @@ shareLink('em', 'https://github.com', 'Check out this website')
 // email share with subject and body
 shareLink('em', 'https://github.com', 'Check out this website', 'no really check it out heres the link')
 'mailto:?subject=Check out this website&body=no really check it out heres the link https://github.com'
+
+// whatsapp share
+shareLink('wa', 'https://github.com')
 ```
 
 ## Support 💬

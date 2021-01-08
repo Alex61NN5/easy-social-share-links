@@ -1,5 +1,7 @@
 function shareLink(provider, link, text = null, emailBody = null) {
 	switch (provider) {
+		case 'wa':
+			return 'https://wa.me/?text=' + link;
 		case 'fb':
 			return 'https://www.facebook.com/sharer/sharer.php?u=' + link;
 		case 'tw':
